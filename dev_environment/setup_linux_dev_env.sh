@@ -216,7 +216,7 @@ cd $BUILD_DIR
 # Get the eBPF-Package-Repository repo containing the eBPF programs
 if [ ! -d "$BUILD_DIR/eBPF-Package-Repository" ];
 then
-  git clone https://github.com/l3af-project/eBPF-Package-Repository.git
+  git clone https://github.com/aka320/eBPF-Package-Repository.git -b aka-l3-ihl-fix 
 fi
 cd eBPF-Package-Repository
 
